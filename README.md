@@ -6,9 +6,9 @@ Finds out the points that lie within a threshold distance from a given point.
 
 The input dataset is a file containing space separated values, which are the x, y and z coordinates of a large number of points. So, the data is arranged in the following manner:
 
-32.3 231 92.15
-5.1 322.22 112.34
-688.22 21 67.8
+32.3 231 92.15<br>
+5.1 322.22 112.34<br>
+688.22 21 67.8<br>
 
 ... and so on. This file **should** be named `input.txt`, since the name of the dataset has been hardcoded in the program. 
 
@@ -20,26 +20,26 @@ The input loop can be terminated by entering an invalid search distance, i.e. by
 
 Sample input 1:
 
-![Sample input 1](/images/image_1.jpg)
+![Sample input 1](/images/input_1.jpg)
 
 Output (the order of appearance of the points need not be the same):
 
--136.8 -6.0 42.1
--108.2 4.8 -19.8
--84.6 92.6 49.3
-96.0 41.7 -49.8
-97.5 80.0 4.4
-137.7 10.2 -39.9
-107.7 4.4 -6.8
+-136.8 -6.0 42.1<br>
+-108.2 4.8 -19.8<br>
+-84.6 92.6 49.3<br>
+96.0 41.7 -49.8<br>
+97.5 80.0 4.4<br>
+137.7 10.2 -39.9<br>
+107.7 4.4 -6.8<br>
 
 Sample input 2:
 
-![Sample input 2](/images/image_2.jpg)
+![Sample input 2](/images/input_2.jpg)
 
 Output:
 
--108.2 4.8 -19.8
--100.4 -61.4 -107.5
+-108.2 4.8 -19.8<br>
+-100.4 -61.4 -107.5<br>
 
 ## Additional notes
 
